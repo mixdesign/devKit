@@ -8,6 +8,7 @@ Pod::Spec.new do |s|
 
 # Source Info
   s.platform     =  :ios, '7.0'
-  s.source       =  { :https://github.com/mixdesign/devKit.git', :tag => "0.0.1" }
+  s.source       =  { :git => 'https://github.com/mixdesign/devKit.git', :tag => "0.0.1" }
+  s.source_files = 'AADevKit/*.{h,m}'
   s.requires_arc = true
 end
