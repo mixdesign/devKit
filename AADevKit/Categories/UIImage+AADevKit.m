@@ -26,9 +26,6 @@
         CGFloat imageScale = self.scale;
         UIGraphicsBeginImageContextWithOptions(self.size, NO, imageScale);
     }
-    else {
-        UIGraphicsBeginImageContext(self.size);
-    }
 
     [self drawInRect:rect];
 
