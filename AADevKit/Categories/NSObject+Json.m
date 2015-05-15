@@ -3,6 +3,7 @@
 // Copyright (c) 2014 Crystal Spring LLC. All rights reserved.
 //
 
+#import "NSObject+Json.h"
 
 @implementation NSObject (Json)
 

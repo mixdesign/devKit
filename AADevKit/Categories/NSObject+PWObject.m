@@ -6,6 +6,7 @@
 //
 //
 
+#import "NSObject+PWObject.h"
 
 @implementation NSObject (PWObject)
 
